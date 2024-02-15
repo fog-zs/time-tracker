@@ -53,7 +53,7 @@
 
 <h3>{currentTime}</h3>
 
-<Button on:click={toggleTheme}>{darkMode ? 'Right Mode' : 'Dark Mode'}</Button>
+<Button on:click={toggleTheme}>{darkMode ? 'Light Mode' : 'Dark Mode'}</Button>
 
 <div class="buttons">
 	<Button on:click={() => recordAction("出勤")}>出勤</Button>
